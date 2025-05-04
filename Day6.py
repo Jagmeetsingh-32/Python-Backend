@@ -13,7 +13,7 @@ def scan_port(host, port):
     except:
         return False  # Error occurred (port likely filtered)
 
-# Step 2: Logging Function
+# Step 2: Logging Function...
 def log_scan(port, status, service):
     timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M]")
     log_entry = f"{timestamp} Port {port} {status} ({service})\n"
