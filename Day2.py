@@ -1,6 +1,5 @@
 import re
 
-
 a=str(input("Enter your password: "))
 if(len(a)<8):
     print("Password too short")
